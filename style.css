@@ -40,4 +40,13 @@ html, body{
     justify-content: flex-end;
     padding: 10px 10px;
     gap: 10px;
+    position: fixed;
+    width: 100%;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
 }
