@@ -34,3 +34,10 @@ html, body{
     margin-top: 25px;
     background-size: cover;
 }
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    gap: 10px;
+}
