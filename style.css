@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#intro{
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+}
+#intro h1{
+    font-size: 80px;
+    line-height: 1;
+}
+#place{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
