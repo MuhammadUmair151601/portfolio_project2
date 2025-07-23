@@ -22,3 +22,15 @@ html, body{
     justify-content: space-between;
     padding: 10px 15px;
 }
+#hero-image{
+    height: 70%;
+    width: 100%;
+    background-color: orange;
+}
+#img{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    margin-top: 25px;
+    background-size: cover;
+}
