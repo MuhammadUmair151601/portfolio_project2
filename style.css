@@ -108,21 +108,30 @@ html, body{
     padding: 0 30px;
 }
 .work2-p{
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 0px;
 }
 .work2-p:nth-child(1){
-    background-color: blue;
     border-bottom: 2px solid black;
 }
-
 .work2-p .elem{
     width: 50%;
     height: 100%;
 }
 .work2-p .elem:nth-child(1){
     border-right: 2px solid black;
+    padding-right: 20px ;
+}
+.work2-p .elem:nth-child(2){
+    padding-left: 20px;
+}
+.work2-p .elem h4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.work2-p .elem p{
+    font-size: 15px;
+    margin-top: 8px;
 }
