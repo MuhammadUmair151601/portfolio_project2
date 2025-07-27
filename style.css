@@ -115,6 +115,7 @@ html, body{
 }
 .work2-p:nth-child(1){
     border-bottom: 2px solid black;
+    padding-top: 0px;
 }
 .work2-p .elem{
     width: 50%;
@@ -134,4 +135,54 @@ html, body{
 .work2-p .elem p{
     font-size: 15px;
     margin-top: 8px;
+    color: rgb(56, 54, 54);
+}
+/* media query for mobile screen */
+@media (max-width: 768px) {
+  #intro h1 {
+    font-size: 40px;
+  }
+
+  #place {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #about {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #about h2, #about-2 {
+    width: 100%;
+    border-left: none;
+    padding: 15px;
+  }
+
+  #icons {
+    margin-top: 20px;
+  }
+
+  #work {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #work1, #work2 {
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 10px 0;
+  }
+
+  .work2-p {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .work2-p .elem {
+    width: 100%;
+    padding: 0;
+    border: none !important;
+  }
 }
